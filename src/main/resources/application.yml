@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-async-example-service
+  output:
+    ansi:
+      enabled: ALWAYS
+
+### LOGGING
+logging:
+  level:
+    root: INFO
+    com:
+      example: TRACE
